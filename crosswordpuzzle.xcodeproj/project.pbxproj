@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105DD89A2475BDD300DE7D00 /* BackgroundMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DD8992475BDD300DE7D00 /* BackgroundMusic.swift */; };
+		105DD89C2475BFDF00DE7D00 /* sweden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 105DD89B2475BFDF00DE7D00 /* sweden.mp3 */; };
+		10FDCB16246F79AC00B033B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB15246F79AC00B033B1 /* AppDelegate.swift */; };
+		10FDCB18246F79AC00B033B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB17246F79AC00B033B1 /* SceneDelegate.swift */; };
+		10FDCB1A246F79AC00B033B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB19246F79AC00B033B1 /* ContentView.swift */; };
+		10FDCB1C246F79B000B033B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FDCB1B246F79B000B033B1 /* Assets.xcassets */; };
+		10FDCB1F246F79B000B033B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FDCB1E246F79B000B033B1 /* Preview Assets.xcassets */; };
+		10FDCB22246F79B000B033B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FDCB20246F79B000B033B1 /* LaunchScreen.storyboard */; };
+		10FDCB2D246F79B000B033B1 /* crosswordpuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB2C246F79B000B033B1 /* crosswordpuzzleTests.swift */; };
+		10FDCB38246F79B000B033B1 /* crosswordpuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB37246F79B000B033B1 /* crosswordpuzzleUITests.swift */; };
+		10FDCB48246FBD1300B033B1 /* ScreenViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB47246FBD1300B033B1 /* ScreenViews.swift */; };
+		10FDCB4A246FC1A900B033B1 /* AnswersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB49246FC1A900B033B1 /* AnswersScreen.swift */; };
+		10FDCB4C246FC2D400B033B1 /* CrosswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB4B246FC2D400B033B1 /* CrosswordScreen.swift */; };
+		10FDCB4E246FC33C00B033B1 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB4D246FC33C00B033B1 /* TitleScreen.swift */; };
+		10FDCB50246FC3FC00B033B1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDCB4F246FC3FC00B033B1 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10FDCB29246F79B000B033B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10FDCB0A246F79AC00B033B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FDCB11246F79AC00B033B1;
+			remoteInfo = crosswordpuzzle;
+		};
+		10FDCB34246F79B000B033B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10FDCB0A246F79AC00B033B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FDCB11246F79AC00B033B1;
+			remoteInfo = crosswordpuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105DD8992475BDD300DE7D00 /* BackgroundMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMusic.swift; sourceTree = "<group>"; };
+		105DD89B2475BFDF00DE7D00 /* sweden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sweden.mp3; path = ../../../../../../Downloads/sweden.mp3; sourceTree = "<group>"; };
+		10FDCB12246F79AC00B033B1 /* crosswordpuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crosswordpuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FDCB15246F79AC00B033B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10FDCB17246F79AC00B033B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10FDCB19246F79AC00B033B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10FDCB1B246F79B000B033B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10FDCB1E246F79B000B033B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10FDCB21246F79B000B033B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10FDCB23246F79B000B033B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FDCB28246F79B000B033B1 /* crosswordpuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crosswordpuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FDCB2C246F79B000B033B1 /* crosswordpuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crosswordpuzzleTests.swift; sourceTree = "<group>"; };
+		10FDCB2E246F79B000B033B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FDCB33246F79B000B033B1 /* crosswordpuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crosswordpuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FDCB37246F79B000B033B1 /* crosswordpuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crosswordpuzzleUITests.swift; sourceTree = "<group>"; };
+		10FDCB39246F79B000B033B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FDCB47246FBD1300B033B1 /* ScreenViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViews.swift; sourceTree = "<group>"; };
+		10FDCB49246FC1A900B033B1 /* AnswersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersScreen.swift; sourceTree = "<group>"; };
+		10FDCB4B246FC2D400B033B1 /* CrosswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordScreen.swift; sourceTree = "<group>"; };
+		10FDCB4D246FC33C00B033B1 /* TitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
+		10FDCB4F246FC3FC00B033B1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FDCB0F246F79AC00B033B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FDCB25246F79B000B033B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FDCB30246F79B000B033B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FDCB09246F79AC00B033B1 = {
+			isa = PBXGroup;
+			children = (
+				10FDCB14246F79AC00B033B1 /* crosswordpuzzle */,
+				10FDCB2B246F79B000B033B1 /* crosswordpuzzleTests */,
+				10FDCB36246F79B000B033B1 /* crosswordpuzzleUITests */,
+				10FDCB13246F79AC00B033B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10FDCB13246F79AC00B033B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FDCB12246F79AC00B033B1 /* crosswordpuzzle.app */,
+				10FDCB28246F79B000B033B1 /* crosswordpuzzleTests.xctest */,
+				10FDCB33246F79B000B033B1 /* crosswordpuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FDCB14246F79AC00B033B1 /* crosswordpuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				10FDCB15246F79AC00B033B1 /* AppDelegate.swift */,
+				10FDCB17246F79AC00B033B1 /* SceneDelegate.swift */,
+				10FDCB19246F79AC00B033B1 /* ContentView.swift */,
+				10FDCB47246FBD1300B033B1 /* ScreenViews.swift */,
+				10FDCB4F246FC3FC00B033B1 /* User.swift */,
+				10FDCB4D246FC33C00B033B1 /* TitleScreen.swift */,
+				10FDCB4B246FC2D400B033B1 /* CrosswordScreen.swift */,
+				10FDCB49246FC1A900B033B1 /* AnswersScreen.swift */,
+				105DD8992475BDD300DE7D00 /* BackgroundMusic.swift */,
+				105DD89B2475BFDF00DE7D00 /* sweden.mp3 */,
+				10FDCB1B246F79B000B033B1 /* Assets.xcassets */,
+				10FDCB20246F79B000B033B1 /* LaunchScreen.storyboard */,
+				10FDCB23246F79B000B033B1 /* Info.plist */,
+				10FDCB1D246F79B000B033B1 /* Preview Content */,
+			);
+			path = crosswordpuzzle;
+			sourceTree = "<group>";
+		};
+		10FDCB1D246F79B000B033B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10FDCB1E246F79B000B033B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10FDCB2B246F79B000B033B1 /* crosswordpuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				10FDCB2C246F79B000B033B1 /* crosswordpuzzleTests.swift */,
+				10FDCB2E246F79B000B033B1 /* Info.plist */,
+			);
+			path = crosswordpuzzleTests;
+			sourceTree = "<group>";
+		};
+		10FDCB36246F79B000B033B1 /* crosswordpuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10FDCB37246F79B000B033B1 /* crosswordpuzzleUITests.swift */,
+				10FDCB39246F79B000B033B1 /* Info.plist */,
+			);
+			path = crosswordpuzzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FDCB11246F79AC00B033B1 /* crosswordpuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FDCB3C246F79B000B033B1 /* Build configuration list for PBXNativeTarget "crosswordpuzzle" */;
+			buildPhases = (
+				10FDCB0E246F79AC00B033B1 /* Sources */,
+				10FDCB0F246F79AC00B033B1 /* Frameworks */,
+				10FDCB10246F79AC00B033B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crosswordpuzzle;
+			productName = crosswordpuzzle;
+			productReference = 10FDCB12246F79AC00B033B1 /* crosswordpuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10FDCB27246F79B000B033B1 /* crosswordpuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FDCB3F246F79B000B033B1 /* Build configuration list for PBXNativeTarget "crosswordpuzzleTests" */;
+			buildPhases = (
+				10FDCB24246F79B000B033B1 /* Sources */,
+				10FDCB25246F79B000B033B1 /* Frameworks */,
+				10FDCB26246F79B000B033B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FDCB2A246F79B000B033B1 /* PBXTargetDependency */,
+			);
+			name = crosswordpuzzleTests;
+			productName = crosswordpuzzleTests;
+			productReference = 10FDCB28246F79B000B033B1 /* crosswordpuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10FDCB32246F79B000B033B1 /* crosswordpuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FDCB42246F79B000B033B1 /* Build configuration list for PBXNativeTarget "crosswordpuzzleUITests" */;
+			buildPhases = (
+				10FDCB2F246F79B000B033B1 /* Sources */,
+				10FDCB30246F79B000B033B1 /* Frameworks */,
+				10FDCB31246F79B000B033B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FDCB35246F79B000B033B1 /* PBXTargetDependency */,
+			);
+			name = crosswordpuzzleUITests;
+			productName = crosswordpuzzleUITests;
+			productReference = 10FDCB33246F79B000B033B1 /* crosswordpuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FDCB0A246F79AC00B033B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Bryan Mendoza";
+				TargetAttributes = {
+					10FDCB11246F79AC00B033B1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					10FDCB27246F79B000B033B1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 10FDCB11246F79AC00B033B1;
+					};
+					10FDCB32246F79B000B033B1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 10FDCB11246F79AC00B033B1;
+					};
+				};
+			};
+			buildConfigurationList = 10FDCB0D246F79AC00B033B1 /* Build configuration list for PBXProject "crosswordpuzzle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10FDCB09246F79AC00B033B1;
+			productRefGroup = 10FDCB13246F79AC00B033B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FDCB11246F79AC00B033B1 /* crosswordpuzzle */,
+				10FDCB27246F79B000B033B1 /* crosswordpuzzleTests */,
+				10FDCB32246F79B000B033B1 /* crosswordpuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FDCB10246F79AC00B033B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FDCB22246F79B000B033B1 /* LaunchScreen.storyboard in Resources */,
+				10FDCB1F246F79B000B033B1 /* Preview Assets.xcassets in Resources */,
+				105DD89C2475BFDF00DE7D00 /* sweden.mp3 in Resources */,
+				10FDCB1C246F79B000B033B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FDCB26246F79B000B033B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FDCB31246F79B000B033B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FDCB0E246F79AC00B033B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FDCB16246F79AC00B033B1 /* AppDelegate.swift in Sources */,
+				10FDCB18246F79AC00B033B1 /* SceneDelegate.swift in Sources */,
+				105DD89A2475BDD300DE7D00 /* BackgroundMusic.swift in Sources */,
+				10FDCB4E246FC33C00B033B1 /* TitleScreen.swift in Sources */,
+				10FDCB4C246FC2D400B033B1 /* CrosswordScreen.swift in Sources */,
+				10FDCB50246FC3FC00B033B1 /* User.swift in Sources */,
+				10FDCB48246FBD1300B033B1 /* ScreenViews.swift in Sources */,
+				10FDCB4A246FC1A900B033B1 /* AnswersScreen.swift in Sources */,
+				10FDCB1A246F79AC00B033B1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FDCB24246F79B000B033B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FDCB2D246F79B000B033B1 /* crosswordpuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FDCB2F246F79B000B033B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FDCB38246F79B000B033B1 /* crosswordpuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10FDCB2A246F79B000B033B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10FDCB11246F79AC00B033B1 /* crosswordpuzzle */;
+			targetProxy = 10FDCB29246F79B000B033B1 /* PBXContainerItemProxy */;
+		};
+		10FDCB35246F79B000B033B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10FDCB11246F79AC00B033B1 /* crosswordpuzzle */;
+			targetProxy = 10FDCB34246F79B000B033B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10FDCB20246F79B000B033B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FDCB21246F79B000B033B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10FDCB3A246F79B000B033B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10FDCB3B246F79B000B033B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10FDCB3D246F79B000B033B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"crosswordpuzzle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = crosswordpuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bryanmendozatrejo.crosswordpuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10FDCB3E246F79B000B033B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"crosswordpuzzle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = crosswordpuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bryanmendozatrejo.crosswordpuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10FDCB40246F79B000B033B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = crosswordpuzzleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bryanmendozatrejo.crosswordpuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crosswordpuzzle.app/crosswordpuzzle";
+			};
+			name = Debug;
+		};
+		10FDCB41246F79B000B033B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = crosswordpuzzleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bryanmendozatrejo.crosswordpuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crosswordpuzzle.app/crosswordpuzzle";
+			};
+			name = Release;
+		};
+		10FDCB43246F79B000B033B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = crosswordpuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bryanmendozatrejo.crosswordpuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crosswordpuzzle;
+			};
+			name = Debug;
+		};
+		10FDCB44246F79B000B033B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = crosswordpuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bryanmendozatrejo.crosswordpuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crosswordpuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FDCB0D246F79AC00B033B1 /* Build configuration list for PBXProject "crosswordpuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FDCB3A246F79B000B033B1 /* Debug */,
+				10FDCB3B246F79B000B033B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FDCB3C246F79B000B033B1 /* Build configuration list for PBXNativeTarget "crosswordpuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FDCB3D246F79B000B033B1 /* Debug */,
+				10FDCB3E246F79B000B033B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FDCB3F246F79B000B033B1 /* Build configuration list for PBXNativeTarget "crosswordpuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FDCB40246F79B000B033B1 /* Debug */,
+				10FDCB41246F79B000B033B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FDCB42246F79B000B033B1 /* Build configuration list for PBXNativeTarget "crosswordpuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FDCB43246F79B000B033B1 /* Debug */,
+				10FDCB44246F79B000B033B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FDCB0A246F79AC00B033B1 /* Project object */;
+}
